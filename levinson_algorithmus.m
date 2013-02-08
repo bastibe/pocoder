@@ -1,4 +1,6 @@
 function [a,k]=levinson_algorithmus(r)
+% Calculates A and K coefficients of an auto correlation array using
+% the levinson-durben method.
 
 a = zeros(length(r),1);
 k = zeros(length(r),1);
